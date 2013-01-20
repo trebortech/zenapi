@@ -1,5 +1,5 @@
 
-.. topic:: Description
+topic:: Description
 	This project is designed to allow developers an easy way to export API calls into thier system. When provided with an API Spec file in JSON format the script will build supporting application laguage extention to easily integrate into existing applications. This allows the consumer of these tools to concentrate on their application instead of learning what API calls to integrate.
 
 apiBuilder.sh
@@ -21,12 +21,12 @@ Examples
 /dist/zenapi.vbs
 -- Code to include in vbscript to provide API access to Zenoss
 
-.. code:: python
+code:: python
 	:number-lines
 
 	def myfunction():
 		print 8/2
-		
+
 
 Targeted languages
 -Python
