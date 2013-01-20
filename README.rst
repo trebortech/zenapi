@@ -13,11 +13,11 @@ apiBuilder.sh
 	Directory for API distributions
 
 Examples
-	/apidoc/zenoss-api4.json 
-		JSON file with specifications of the Zenoss API Version 4.
+/apidoc/zenoss-api4.json 
+	JSON file with specifications of the Zenoss API Version 4.
 
-	/dist/zenapi.vbs
-		Code to include in vbscript to provide API access to Zenoss
+/dist/zenapi.vbs
+	Code to include in vbscript to provide API access to Zenoss
 
 Targeted languages
 	Python
