@@ -21,6 +21,12 @@ Examples
 /dist/zenapi.vbs
 -- Code to include in vbscript to provide API access to Zenoss
 
+.. code:: python
+	:number-lines
+
+	def myfunction():
+		print 8/2
+		
 
 Targeted languages
 -Python
