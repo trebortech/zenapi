@@ -1,0 +1,30 @@
+
+<job id="ZenossAPI">
+	<script language="VBScript" src="zenossHTTP.vbs"/>
+
+	<script language="VBScript">
+
+		userName = "admin"
+		passWord = "zenoss"
+		zenossURL = "http://192.168.2.195:8080/zport/acl_users/cookieAuthHelper/login"
+		zenossEventRouter = ""http://192.168.2.195:8080/zport/dmd/Events/evconsole_router" 
+
+
+		'Method that will login session
+		apiLogin userName, passWord, zenossURL
+
+
+		'After Login now send event
+		errMessage = "This is bad, really really bad"
+		deviceID = "192.168.1.10"
+		strComponent = "fileSystem"
+		sev = 5
+		evtClassKey = ""
+		evtClass = "/Status/Ping"
+
+		sendEvent zenossEventRouter, errMessage, deviceID, strComponent, sev, evtClass, evtClassKey
+
+	</script>
+</job>
+
+
