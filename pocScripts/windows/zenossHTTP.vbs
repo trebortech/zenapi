@@ -33,8 +33,6 @@ Function sendEvent(url, errMessage, deviceID, strComponent, sev, evtClass, evtCl
 	
 
 	objHTTP.send(sPost)
-
-	logFile.write(objHTTP.ResponseText)
 End Function
 
 
